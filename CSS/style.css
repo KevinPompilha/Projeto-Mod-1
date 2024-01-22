@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    background-image: url('../imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    position: absolute;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.btn-login{
+    margin-top: 230px;
+    font-weight: 700;
+    width: 382px;
+    height: 72px;
+    padding: 12px 64px;
+    border-radius: 15px;
+    color: #502B6B;
+    background-color: #DCB6F8; 
+}

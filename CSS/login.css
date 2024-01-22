@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    background-image: url('../imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 340px;
+    left: 340px;
+    
+    
+}
+.main-content{
+    display: flex;
+    justify-content: space-around
+}
+
+.formulario{
+
+    /* position: fixed;
+    left: 1280px;
+    bottom: 90px; */
+    width: 700px;
+    height: 823px;
+    border-radius: 25px;
+    float: right;
+    background-color:#fff;
+}

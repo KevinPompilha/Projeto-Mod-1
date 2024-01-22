@@ -1,0 +1,14 @@
+{
+    "produtos":[
+        {
+            "id":"01",
+            "nome":"Produto",
+            "imagem":"xxx",
+            "descricao":"xxxx"
+
+        }
+    ],
+    "resgates":[
+
+    ]
+}
