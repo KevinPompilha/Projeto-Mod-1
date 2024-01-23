@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../JS/login.js"></script>
     <link rel="stylesheet" href="../CSS/login.css">
+    <script src="../JS/login.js"></script>
     <title>Login</title>
 </head>
 
 <body>
-    <main class="main-content">
-        <section class="formulario">
-            <img src="../imagens/linkcom.png" alt="" srcset="">
-            <h4>Seja bem vindo</h4>
+    <div class="layout">
+        <img src="../imagens/linkcom.png" alt="logo-linkcom" srcset="">
+    </div>
+    <div class="formulario">
+        <div class="container">
+            <h4>Seja bem vindo!</h4>
             <h1>Faça seu Login</h1>
-        </section>
-    </main>
+        </div>
+        <div class="login">
+            <input class="input-form first" type="email" placeholder="E-mail" required/>
+            <input class="input-form" type="password" placeholder="Password" required/>
+        </div>
+        <button class="btn-login" onclick="efetuarLogin()" id="btnEntrar">Entrar</button>
+    </div>
 </body>
 
 </html>

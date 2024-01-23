@@ -1,33 +1,96 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
 
-body{
+body {
     background-image: url('../imagens/fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-    top: 340px;
-    left: 340px;
-    
-    
-}
-.main-content{
     display: flex;
-    justify-content: space-around
+    
 }
 
-.formulario{
+.layout {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    /* position: fixed;
-    left: 1280px;
-    bottom: 90px; */
-    width: 700px;
-    height: 823px;
-    border-radius: 25px;
-    float: right;
-    background-color:#fff;
+.layout img {
+    width: 50%;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    width: 50vw;
+    height: 100vh;
+    gap: 30px;
+}
+
+.container {
+    color: #502B6B;
+    width: 40%;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.container h4 {
+    font-size: 18px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+}
+
+.login input {
+    padding: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #502B6B;
+}
+
+.login input:focus{
+    border: 1px solid green;
+}
+
+.btn-login {
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #502B6B;
+    color: white;
+    font-weight: 700;
+}
+
+@media (max-width:750px){
+    body{
+        flex-direction: column;
+    }
+    .formulario{
+        width: 100vw;
+        border-radius: 20px 20px 0 0;
+    }
+    .layout{
+        width: 100vw;
+    }
 }

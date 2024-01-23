@@ -1,34 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
 
-body{
+body {
     background-image: url('../imagens/fundo.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
-img{
-    position: absolute;
-}
-
-.main-content{
     display: flex;
     justify-content: center;
-    margin-top: 300px;
+    align-items: center;
+    width: 100vw;
+}
+
+.layout {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.layout img {
+    width: 50%;
 }
 
 .btn-login{
-    margin-top: 230px;
-    font-weight: 700;
-    width: 382px;
-    height: 72px;
-    padding: 12px 64px;
-    border-radius: 15px;
-    color: #502B6B;
-    background-color: #DCB6F8; 
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    color: white;
+    background-color: #502B6B;
 }
+
+@media (max-width:750px){
+    .layout{
+        width:80vw;
+    }
+}
+
+
