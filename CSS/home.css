@@ -12,6 +12,7 @@
     font-family: 'Sora', sans-serif;
 }
 
+
 li {
     list-style-type: none;
 }
@@ -24,7 +25,7 @@ a {
 
 
 .header {
-    background-image: url(../imagens/topo.png);
+    background-image: url('../imagens/topo.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -35,18 +36,18 @@ a {
 
 .container-perfil {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     gap: 10px;
 }
 
-.perfil{
+.perfil {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.perfil img{
+.perfil img {
     margin-top: 5px;
     margin-right: 10px;
 }
@@ -95,21 +96,102 @@ span {
 }
 
 .ciclo {
+    display: flex;
+    gap: 10px;
     margin-top: 8px;
+    width: 345px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ciclo img {
+    margin-left: 5px;
 }
 
 
 input {
-    width: 600px;
-    padding: 15px;
+    width: 661px;
+    height: 72px;
     position: relative;
-    bottom: -70px;
+    bottom: -50px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.11);
+    font-size: 18px;
 }
 
-.img-lupa{
+.img-lupa {
     display: flex;
     position: relative;
-    bottom: -30px;
-    left: 15px;
+    bottom: 1px;
+    left: 10px;
 }
 
+.banner-meio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80vw;
+    margin-top: 80px;
+}
+
+.container-produto {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 317px;
+}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 175px;
+    border-radius: 16px;
+    background-color: #EEEEEE;
+}
+
+.texto-card {
+    width: 238px;
+    height: 110px;
+    margin-top: 10px;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+.descricao-produto{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+}
+.valor-joias{
+    font-size: 12px;
+    color: #9E9E9E;
+}
+
+button {
+    align-items: center;
+    width: 238px;
+    height: 40px; 
+    background-color: #502B6B;
+    color: white;
+    padding: 12px 64px 12px 64px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
