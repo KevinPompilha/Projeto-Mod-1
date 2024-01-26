@@ -140,10 +140,9 @@ input {
 .cards{
     display: flex;
     justify-content: center;
-
     flex-wrap: wrap;
     gap: 30px;
-    width: 80vw;
+    width: 80%;
     margin-top: 80px;
 }
 
@@ -152,7 +151,7 @@ input {
     display: flex;
     flex-direction: column;
     width: 270px;
-    height: 317px;
+    height: 100%;
 }
 
 .img-card {
@@ -188,9 +187,9 @@ input {
 button {
     align-items: center;
     width: 238px; 
-    background-color: #502B6B;
-    color: white;
     padding: 12px 64px 12px 64px;
     margin-bottom: 10px;
     border-radius: 8px;
+    background-color: #502B6B;
+    color: white; 
 }
