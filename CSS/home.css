@@ -187,8 +187,7 @@ input {
 
 button {
     align-items: center;
-    width: 238px;
-    height: 40px; 
+    width: 238px; 
     background-color: #502B6B;
     color: white;
     padding: 12px 64px 12px 64px;
