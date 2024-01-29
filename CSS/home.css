@@ -28,7 +28,7 @@ a {
     background-image: url('../imagens/topo.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     border-radius: 0 0 25px 25px;
 }
@@ -111,7 +111,12 @@ span {
 }
 
 
-input {
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    background-color: white;
     width: 661px;
     height: 72px;
     position: relative;
@@ -120,29 +125,35 @@ input {
     border-radius: 8px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.11);
     font-size: 18px;
+    outline: none;
 }
-
+.barra-pesquisa{
+    width: 85%;
+    padding: 25px;
+    border: none;
+    outline: none;
+}
 .img-lupa {
-    display: flex;
-    position: relative;
-    bottom: 1px;
-    left: 10px;
+    margin-left: 25px;
+
 }
 
 .banner-meio {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    margin: 80px auto;
 }
 
-
-.cards{
+.cards {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
     gap: 30px;
-    width: 80%;
+    width: 62%;
+    margin: 0 auto;
     margin-top: 80px;
 }
 
@@ -160,7 +171,8 @@ input {
     width: 270px;
     height: 175px;
     border-radius: 16px;
-    background-color: #EEEEEE;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.07);
 }
 
 .texto-card {
@@ -169,27 +181,29 @@ input {
     margin-top: 10px;
 }
 
-.container-btn{
+.container-btn {
     display: flex;
     justify-content: center;
 }
-.descricao-produto{
+
+.descricao-produto {
     font-size: 12px;
     font-weight: 600;
     color: black;
     margin-top: 5px;
 }
-.valor-joias{
+
+.valor-joias {
     font-size: 12px;
     color: #9E9E9E;
 }
 
 button {
     align-items: center;
-    width: 238px; 
+    width: 238px;
     padding: 12px 64px 12px 64px;
     margin-bottom: 10px;
     border-radius: 8px;
     background-color: #502B6B;
-    color: white; 
+    color: white;
 }

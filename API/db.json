@@ -2,13 +2,17 @@
     "produtos":[
         {
             "id":"01",
-            "nome":"Produto",
-            "imagem":"xxx",
-            "descricao":"xxxx"
-
+            "nome":"Placa de vídeo RTX4090",
+            "imagem":"../imagens/RTX40901.png",
+            "descricao":"A NVIDIA® GeForce RTX™ 4090 é a GPU GeForce definitiva. Ele traz um enorme salto em desempenho, eficiência e gráficos alimentados por IA. Experimente jogos de altíssimo desempenho, mundos virtuais incrivelmente detalhados, produtividade sem precedentes e novas formas de criar. É equipado com a arquitetura NVIDIA Ada Lovelace e vem com 24 GB de memória G6X para oferecer a melhor experiência para jogadores e criadores.",
+            "preco":"2 jóias"
         }
     ],
     "resgates":[
 
+    ],
+    "users":[
+
     ]
+    
 }

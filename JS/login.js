@@ -1,3 +1,3 @@
 function efetuarLogin(){
-    window.location.href = '../HTML/home.html'
+    window.location = '../HTML/home.html'
 }

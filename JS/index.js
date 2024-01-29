@@ -1,3 +1,3 @@
 function irParaLogin(){
-    window.location.href = '../HTML/login.html'
+    window.location = '../HTML/login.html'
 }
