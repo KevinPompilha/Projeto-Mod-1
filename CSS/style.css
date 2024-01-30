@@ -32,11 +32,13 @@ body {
 }
 
 .btn-login{
-    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px;
     width: 40%;
     border-radius: 20px;
-    color: white;
-    background-color: #502B6B;
+    color:#502B6B;
+    background-color: #DCB6F8;
 }
 
 @media (max-width:750px){
