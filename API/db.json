@@ -1,17 +1,39 @@
 {
     "produtos":[
         {
-            "id":"01",
+            "id":1,
             "nome":"Placa de vídeo RTX4090",
             "imagem":"../imagens/RTX40901.png",
-            "descricao":"A NVIDIA® GeForce RTX™ 4090 é a GPU GeForce definitiva. Ele traz um enorme salto em desempenho, eficiência e gráficos alimentados por IA. Experimente jogos de altíssimo desempenho, mundos virtuais incrivelmente detalhados, produtividade sem precedentes e novas formas de criar. É equipado com a arquitetura NVIDIA Ada Lovelace e vem com 24 GB de memória G6X para oferecer a melhor experiência para jogadores e criadores.",
+            "descricao":"A NVIDIA® GeForce RTX™ 4090 é a GPU GeForce definitiva. ",
             "preco":"2 jóias"
+ 
+        },
+
+        {
+            "id":2,
+            "nome":"Monitor Gamer AOC Hero 24",
+            "imagem":"../imagens/Monitor.jpg",
+            "descricao":"O monitor Gamer AOC Hero é compatível com a tecnologia G-Sync.",
+            "preco":"2 jóias"
+        },
+        {
+            "id":3,
+            "nome":"Mouse Gamer Razer Basilisk V3",
+            "imagem":"../imagens/Mouse.jpg",
+            "descricao":"Mouse Gamer Razer Basilisk V3, RGB Chroma, 26000 DPI, Optical Switch, 11 Botões",
+            "preco":"4 jóias"
+        },
+
+        {
+            "id":3,
+            "nome":"Teclado Óptico Mecânico Gamer Razer",
+            "imagem":"../imagens/Teclado.jpg",
+            "descricao":"Teclado Óptico Mecânico Gamer Razer Huntsman V2, Chroma RGB, Switch Razer Purple",
+            "preco":"4 jóias"
         }
-    ],
-    "resgates":[
 
     ],
-    "users":[
+    "resgates":[
 
     ]
     

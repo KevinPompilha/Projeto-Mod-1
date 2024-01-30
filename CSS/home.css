@@ -158,8 +158,9 @@ span {
 }
 
 .container-produto {
-    margin-top: 50px;
     display: flex;
+    align-items: center;
+    margin-top: 50px;
     flex-direction: column;
     width: 270px;
     height: 100%;

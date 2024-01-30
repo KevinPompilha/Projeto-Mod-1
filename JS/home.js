@@ -14,106 +14,13 @@ const mostrarCards = async (cards) =>{
                 <img src="${elemento.imagem}" alt="">
             </div>
             <div class="texto-card">
-                <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                    384-Bit</span>
+                <span class="descricao-produto">${elemento.descricao}</span>
                 <p class="valor-joias">2 jóias</p>
             </div>
             <div class="container-btn">
                 <button>Resgatar</button>
             </div>
         </div>
-        <div class="container-produto">
-        <div class="img-card">
-            <img src="${elemento.imagem}" alt="">
-        </div>
-        <div class="texto-card">
-            <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                384-Bit</span>
-            <p class="valor-joias">2 jóias</p>
-        </div>
-        <div class="container-btn">
-            <button>Resgatar</button>
-        </div>
-    </div>
-     <div class="container-produto">
-            <div class="img-card">
-                <img src="${elemento.imagem}" alt="">
-            </div>
-            <div class="texto-card">
-                <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                    384-Bit</span>
-                <p class="valor-joias">2 jóias</p>
-            </div>
-            <div class="container-btn">
-                <button>Resgatar</button>
-            </div>
-        </div>
-        <div class="container-produto">
-        <div class="img-card">
-            <img src="${elemento.imagem}" alt="">
-        </div>
-        <div class="texto-card">
-            <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                384-Bit</span>
-            <p class="valor-joias">2 jóias</p>
-        </div>
-        <div class="container-btn">
-            <button>Resgatar</button>
-        </div>
-        </div>
-        <div class="container-produto">
-        <div class="img-card">
-            <img src="${elemento.imagem}" alt="">
-        </div>
-        <div class="texto-card">
-            <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                384-Bit</span>
-            <p class="valor-joias">2 jóias</p>
-        </div>
-        <div class="container-btn">
-            <button>Resgatar</button>
-        </div>
-    </div>
-    <div class="container-produto">
-    <div class="img-card">
-            <img src="${elemento.imagem}" alt="">
-        </div>
-        <div class="texto-card">
-            <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                384-Bit</span>
-            <p class="valor-joias">2 jóias</p>
-        </div>
-        <div class="container-btn">
-            <button>Resgatar</button>
-        </div>
-        </div>
-        <div class="container-produto">
-        <div class="img-card">
-            <img src="${elemento.imagem}" alt="">
-        </div>
-        <div class="texto-card">
-            <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                384-Bit</span>
-            <p class="valor-joias">2 jóias</p>
-        </div>
-        <div class="container-btn">
-            <button>Resgatar</button>
-        </div>
-    </div>
-    <div class="container-produto">
-        <div class="img-card">
-            <img src="${elemento.imagem}" alt="">
-        </div>
-        <div class="texto-card">
-            <span class="descricao-produto">Placa De Video Asus Geforce Rtx 4090 Tuf Gaming, 24gb, Gddr6x,
-                384-Bit</span>
-            <p class="valor-joias">2 jóias</p>
-        </div>
-        <div class="container-btn">
-            <button>Resgatar</button>
-        </div>
-    </div>
-        
         `
    });
 
