@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.container-perfil {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.perfil img {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.span-ola {
+    font-size: 24px;
+    color: #502B6B;
+}
+
+.span-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #502B6B;
+}
