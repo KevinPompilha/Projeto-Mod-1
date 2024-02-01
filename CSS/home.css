@@ -158,6 +158,10 @@ span {
     margin-top: 80px;
 }
 
+.cards img{
+    width: 175px;
+}
+
 .container-produto {
     display: flex;
     align-items: center;

@@ -14,18 +14,21 @@ const mostrarCards = async (cards) =>{
                 <img src="${elemento.imagem}" alt="">
             </div>
             <div class="texto-card">
-                <span class="descricao-produto">${elemento.descricao}</span>
+                <span class="descricao-produto">${elemento.nome}</span>
                 <p class="valor-joias">2 jóias</p>
             </div>
             <div class="container-btn">
-                <button>Resgatar</button>
+                <button onclick="resgatar('${elemento.id}')">Resgatar</button>
             </div>
         </div>
         `
    });
 
-
    }
+   const resgatar = (id) =>{
+    window.location = `../HTML/produto.html?id=${id}`
+   }
+
    const carregarDados = async () =>{
     const produtos = await getProdutos()
     mostrarCards(produtos)
