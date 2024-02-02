@@ -48,8 +48,78 @@ a {
     color: #502B6B;
 }
 
+.span-txt{
+    font-size: 18px;
+    color: #502B6B;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: 700;
+    color: #502B6B;
+}
+
 .span-name {
     font-size: 24px;
     font-weight: 600;
     color: #502B6B;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    
+}
+.container-produto{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container img{
+    width: 500px;
+}
+
+.nome-produto{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.descricao{
+    margin-top: 15px;
+    width: 70%;
+    text-align:left;
+    line-height:24px;
+    font-size: 16px;
+    color: #616161;
+    
+}
+
+span .diamante{
+    width: 20px;
+    margin-left: 8px ;
+}
+
+.container-btn{
+    width: 70%; 
+}
+
+.btn-resgatar{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 50px;
+    align-items: center;
+    width: 270px;
+    height: 72px;
+    padding: 12px 64px 12px 64px; 
+    margin-bottom: 10px;
+    border-radius: 16px;
+    background-color: #502B6B;
+    color: white;
 }

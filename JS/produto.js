@@ -1,5 +1,5 @@
 const resgateProduto = document.getElementById('resgate')
-let id
+
 
 const produtoSelecionado = async (objetoResgate, id) =>{
     await fetch(`http://localhost:3000/resgates/${id}`,{
@@ -13,23 +13,23 @@ const produtoSelecionado = async (objetoResgate, id) =>{
 }
 
 
-resgateProduto.addEventListener("click", async (evento) =>{
-    evento.preventDefault()
-    //pegando os dados do formulário
-    const nome = resgateProduto.elements['nome'].value
-    const imagem = resgateProduto.elements['imagem'].value
-    const descricao = resgateProduto.elements['descricao'].value
-    const preco = resgateProduto.elements['preco'].value
+// resgateProduto.addEventListener("click", async (evento) =>{
+//     evento.preventDefault()
 
-    const objetoResgate = {
-        nome,
-        imagem,
-        descricao,
-        preco
-    }
-    await resgate(id, objetoResgate)
-    window.location = '../HTML/produto.html'
-})
+//     const nome = resgateProduto.elements['nome'].value
+//     const imagem = resgateProduto.elements['imagem'].value
+//     const descricao = resgateProduto.elements['descricao'].value
+//     const preco = resgateProduto.elements['preco'].value
+
+//     const objetoResgate = {
+//         nome,
+//         imagem,
+//         descricao,
+//         preco
+//     }
+//     await resgate(id, objetoResgate)
+//     window.location = '../HTML/produto.html'
+// })
 
 const buscaProduto = async (id) =>{
     const resposta = await fetch (`http://localhost:3000/produtos/${id}`)
@@ -40,9 +40,15 @@ const buscaProduto = async (id) =>{
 const carregarProdutos = (produto) =>{
     resgateProduto.innerHTML = 
     `
-    <div> <img src="${produto.imagem}" /></div>
-    <div><span>${produto.descricao}</span></div>
-
+    <div class="container">
+        <div class="img-produto"><img src="${produto.imagem}" /></div>
+        <div class="container-produto">
+            <div><p class="nome-produto">${produto.nome}</p></div>
+            <span class="span-txt">Por: <span class="preco">2<img class="diamante" src="../imagens/diamante.png"></span></span>
+            <p class="descricao">${produto.descricao}</p>
+            <div class="container-btn"><button class="btn-resgatar">Resgatar</button></div>
+        </div>   
+    </div>
     `
 }
 

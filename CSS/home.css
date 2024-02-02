@@ -204,6 +204,11 @@ span {
     color: #9E9E9E;
 }
 
+.produtos-titulo{
+    margin-top: 80px;
+    margin-bottom: -80px;
+}
+
 button {
     align-items: center;
     width: 238px;
