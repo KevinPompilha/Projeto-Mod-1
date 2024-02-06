@@ -1,5 +1,5 @@
 const getProdutos = async () =>{
-    const request = await fetch('http://localhost:3000/produtos')
+    const request = await fetch('https://api-culture-code-arnia.onrender.com/produtos')
     return await request.json()
 }
 

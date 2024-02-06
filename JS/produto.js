@@ -2,7 +2,7 @@ const resgateProduto = document.getElementById('resgate')
 
 
 const produtoSelecionado = async (objetoResgate, id) =>{
-    await fetch(`http://localhost:3000/resgates/${id}`,{
+    await fetch(`https://api-culture-code-arnia.onrender.com/resgates/${id}`,{
         method:'PUT',
         headers: {
             'Accept': 'application/json, text/plain, */*',
@@ -32,7 +32,7 @@ const produtoSelecionado = async (objetoResgate, id) =>{
 // })
 
 const buscaProduto = async (id) =>{
-    const resposta = await fetch (`http://localhost:3000/produtos/${id}`)
+    const resposta = await fetch (`https://api-culture-code-arnia.onrender.com/produtos/${id}`)
     const produto = await resposta.json()
     return produto
 }
