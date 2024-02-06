@@ -23,6 +23,27 @@
             "descricao":"Mouse Gamer Razer Basilisk V3, RGB Chroma, 26000 DPI, Optical Switch, 11 Botões",
             "preco":"4 jóias"
         },
+        {
+            "id":"5",
+            "nome":"Mouse Gamer Razer Basilisk V3",
+            "imagem":"../imagens/Mouse.png",
+            "descricao":"Mouse Gamer Razer Basilisk V3, RGB Chroma, 26000 DPI, Optical Switch, 11 Botões",
+            "preco":"4 jóias"
+        },
+        {
+            "id":"6",
+            "nome":"Mouse Gamer Razer Basilisk V3",
+            "imagem":"../imagens/Mouse.png",
+            "descricao":"Mouse Gamer Razer Basilisk V3, RGB Chroma, 26000 DPI, Optical Switch, 11 Botões",
+            "preco":"4 jóias"
+        },
+        {
+            "id":"7",
+            "nome":"Mouse Gamer Razer Basilisk V3",
+            "imagem":"../imagens/Mouse.png",
+            "descricao":"Mouse Gamer Razer Basilisk V3, RGB Chroma, 26000 DPI, Optical Switch, 11 Botões",
+            "preco":"4 jóias"
+        },
 
         {
             "id":"4",
