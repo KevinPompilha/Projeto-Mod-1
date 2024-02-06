@@ -49,6 +49,24 @@ const carregarProdutos = (produto) =>{
             <div class="container-btn"><button class="btn-resgatar">Resgatar</button></div>
         </div>   
     </div>
+    <div class="container">
+    <div class="img-produto"><img src="${produto.imagem}" /></div>
+    <div class="container-produto">
+        <div><p class="nome-produto">${produto.nome}</p></div>
+        <span class="span-txt">Por: <span class="preco">2<img class="diamante" src="../imagens/diamante.png"></span></span>
+        <p class="descricao">${produto.descricao}</p>
+        <div class="container-btn"><button class="btn-resgatar">Resgatar</button></div>
+    </div>   
+</div>
+<div class="container">
+<div class="img-produto"><img src="${produto.imagem}" /></div>
+<div class="container-produto">
+    <div><p class="nome-produto">${produto.nome}</p></div>
+    <span class="span-txt">Por: <span class="preco">2<img class="diamante" src="../imagens/diamante.png"></span></span>
+    <p class="descricao">${produto.descricao}</p>
+    <div class="container-btn"><button class="btn-resgatar">Resgatar</button></div>
+</div>   
+</div>
     `
 }
 
